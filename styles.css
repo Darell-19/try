@@ -1,0 +1,25 @@
+
+.intro{
+background-color: #1c1c1c;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: center;
+color:#F1C40F;
+border: 10px solid;
+border-color: #F1C40F;
+border-radius: 20px;
+}
+.product img    {
+    display:inline-block;
+    padding:5px;
+    border-radius: 20px;
+    width: 50%;
+    background:linear-gradient(to right, #F1C40F, #1c1c1c);
+    animation: gradientMove 5s ease infinite;
+    background-size: 600% 600%;
+   
+}
+@keyframes gradientMove{
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
